@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Library - Available Books</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>📚 Smart Library</h1>
+            <p class="tagline">Your Digital Gateway to Knowledge</p>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <div class="container">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link">Categories ▼</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Fiction</a></li>
+                        <li><a href="#">Non-Fiction</a></li>
+                        <li><a href="#">Science & Technology</a></li>
+                        <li><a href="#">History & Biography</a></li>
+                        <li><a href="#">Self-Help</a></li>
+                        <li><a href="#">Children's Books</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link">Services ▼</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Borrow Books</a></li>
+                        <li><a href="#">Return Books</a></li>
+                        <li><a href="#">Reserve Books</a></li>
+                        <li><a href="#">E-Books</a></li>
+                        <li><a href="#">Audiobooks</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link">Resources ▼</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Study Rooms</a></li>
+                        <li><a href="#">Digital Archives</a></li>
+                        <li><a href="#">Research Help</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="search-section">
+            <input type="text" placeholder="Search books by title, author, or genre..." class="search-bar">
+        </section>
+
+        <section class="stats">
+            <div class="stat-card">
+                <h3>2,450</h3>
+                <p>Total Books</p>
+            </div>
+            <div class="stat-card">
+                <h3>1,890</h3>
+                <p>Available</p>
+            </div>
+            <div class="stat-card">
+                <h3>560</h3>
+                <p>Borrowed</p>
+            </div>
+            <div class="stat-card">
+                <h3>45</h3>
+                <p>Categories</p>
+            </div>
+        </section>
+
+        <section class="books-section">
+            <h2>Available Books</h2>
+            
+            <div class="books-grid">
+                <div class="book-card">
+                    <div class="book-cover" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                        <span class="book-icon">📖</span>
+                    </div>
+                    <div class="book-info">
+                        <h3>The Great Gatsby</h3>
+                        <p class="author">F. Scott Fitzgerald</p>
+                        <p class="genre">Classic Fiction</p>
+                        <span class="status available">Available</span>
+                    </div>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-cover" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                        <span class="book-icon">📘</span>
+                    </div>
+                    <div class="book-info">
+                        <h3>1984</h3>
+                        <p class="author">George Orwell</p>
+                        <p class="genre">Dystopian Fiction</p>
+                        <span class="status available">Available</span>
+                    </div>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-cover" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                        <span class="book-icon">📗</span>
+                    </div>
+                    <div class="book-info">
+                        <h3>To Kill a Mockingbird</h3>
+                        <p class="author">Harper Lee</p>
+                        <p class="genre">Classic Literature</p>
+                        <span class="status available">Available</span>
+                    </div>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-cover" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                        <span class="book-icon">📙</span>
+                    </div>
+                    <div class="book-info">
+                        <h3>Pride and Prejudice</h3>
+                        <p class="author">Jane Austen</p>
+                        <p class="genre">Romance</p>
+                        <span class="status borrowed">Borrowed</span>
+                    </div>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-cover" style="background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);">
+                        <span class="book-icon">📕</span>
+                    </div>
+                    <div class="book-info">
+                        <h3>The Catcher in the Rye</h3>
+                        <p class="author">J.D. Salinger</p>
+                        <p class="genre">Coming-of-age</p>
+                        <span class="status available">Available</span>
+                    </div>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-cover" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
+                        <span class="book-icon">📔</span>
+                    </div>
+                    <div class="book-info">
+                        <h3>Harry Potter</h3>
+                        <p class="author">J.K. Rowling</p>
+                        <p class="genre">Fantasy</p>
+                        <span class="status available">Available</span>
+                    </div>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-cover" style="background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);">
+                        <span class="book-icon">📓</span>
+                    </div>
+                    <div class="book-info">
+                        <h3>The Hobbit</h3>
+                        <p class="author">J.R.R. Tolkien</p>
+                        <p class="genre">Fantasy Adventure</p>
+                        <span class="status available">Available</span>
+                    </div>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-cover" style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);">
+                        <span class="book-icon">📒</span>
+                    </div>
+                    <div class="book-info">
+                        <h3>Sapiens</h3>
+                        <p class="author">Yuval Noah Harari</p>
+                        <p class="genre">Non-Fiction</p>
+                        <span class="status borrowed">Borrowed</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Smart Library. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
